@@ -1,0 +1,37 @@
+{
+    "overrides": [
+        {
+            "excludeFiles": "*.blade.php",
+            "files": "*.php",
+            "options": {
+                "tabWidth": 4,
+                "semi": true,
+                "singleQuote": true
+            }
+        },
+        {
+            "files": ["*.js", "*.vue"],
+            "options": {
+                "tabWidth": 2,
+                "semi": false,
+                "singleQuote": true
+            }
+        },
+        {
+            "files": "*.css",
+            "options": {
+                "tabWidth": 2,
+                "semi": true,
+                "singleQuote": false
+            }
+        },
+        {
+            "files": "*.scss",
+            "options": {
+                "tabWidth": 2,
+                "semi": true,
+                "singleQuote": true
+            }
+        }
+    ]
+}
