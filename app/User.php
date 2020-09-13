@@ -39,5 +39,16 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    // Relationship One to Many dengan article dan berita
+    public function articles()
+    {
+        return $this->hasMany('App\Article');
+    }
+
+    public function berita()
+    {
+        return $this->hasMany('App\Berita');
+    }
+
     use Notifiable, HasApiTokens;
 }
