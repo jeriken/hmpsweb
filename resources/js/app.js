@@ -1,6 +1,5 @@
-import './bootstrap'
 import Vue from 'vue'
-import App from './components/ExampleComponent'
+import App from './index'
 
 const vm = new Vue({
   el: '#app',
