@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-lg mx-auto px-4 sm:px-6 py-12 sm:py-12">
+  <div class="max-w-screen-lg mx-auto px-4 sm:px-6 py-6 sm:py-12">
     <ExampleComponent />
   </div>
 </template>
