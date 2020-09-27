@@ -26,6 +26,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "typeface-roboto": "0.0.75"
+        "typeface-roboto": "0.0.75",
+        "vue-router": "^3.4.5"
     }
 }
