@@ -1,9 +1,10 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
-import Home from "./views/Home.vue"
-// import Articles from "./views/Articles.vue"
-// import News from "./views/News.vue"
-// import About from "./views/About.vue"
+
+const Home = () => import('./views/Home.vue')
+// const Articles = () => import('./views/Articles.vue')
+// const News = () => import('./views/News.vue')
+// const About = () => import('./views/About.vue')
 
 Vue.use(VueRouter)
 
@@ -14,7 +15,7 @@ export default new VueRouter({
       name: "home",
       component: Home
     },
-    // please create Articles, News, and About Components
+    // please create Articles, News, and About components
     // in ./views
     // {
     //   path: "/articles",

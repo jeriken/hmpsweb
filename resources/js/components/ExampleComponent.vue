@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-lg mx-auto">
+  <div>
     <h1 class="text-2xl font-bold">Home</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusamus

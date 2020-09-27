@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import App from './index'
-import router from './router'
+import App from './Index.vue'
+import router from './router.js'
 require('typeface-roboto')
 
 const vm = new Vue({
