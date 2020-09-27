@@ -113,6 +113,27 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -130,6 +151,14 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -1699,29 +1728,29 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "max-w-screen-lg mx-auto" }, [
-      _c("h1", [_vm._v("Home")]),
+      _c("h1", { staticClass: "text-2xl font-bold" }, [_vm._v("Home")]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusamus reiciendis nam tenetur recusandae doloremque dolorum esse adipisci quia, minus cupiditate, culpa? Eveniet magnam voluptatem quis iure consectetur natus veritatis.\n  "
+          "\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusamus\n    reiciendis nam tenetur recusandae doloremque dolorum esse adipisci quia,\n    minus cupiditate, culpa? Eveniet magnam voluptatem quis iure consectetur\n    natus veritatis.\n  "
         )
       ]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n    Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Commodi optio porro numquam quo harum molestiae amet enim voluptatum officia ratione aliquid tenetur illum iure exercitationem delectus corrupti inventore alias, illo neque, pariatur? Soluta debitis odio natus, dignissimos dolore dolor aliquid?\n  "
+          "\n    Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Commodi optio\n    porro numquam quo harum molestiae amet enim voluptatum officia ratione\n    aliquid tenetur illum iure exercitationem delectus corrupti inventore\n    alias, illo neque, pariatur? Soluta debitis odio natus, dignissimos dolore\n    dolor aliquid?\n  "
         )
       ]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur aspernatur nostrum, repellendus ea numquam consequatur assumenda. Alias perspiciatis, delectus, sapiente omnis ex repellendus, qui eius soluta suscipit deleniti corporis voluptatibus. Deserunt excepturi non recusandae molestias, libero sed labore animi numquam quae cupiditate perferendis ex praesentium aliquam eum rerum accusamus ducimus fugiat nostrum delectus eius. Culpa nisi reiciendis rerum. Est, culpa. Similique fuga voluptatibus doloribus placeat eius reprehenderit nobis, nemo provident beatae, soluta ipsam ab porro ducimus, quas blanditiis pariatur commodi ratione tempore ad perferendis delectus iure saepe sunt? Aliquam provident assumenda nam vitae odit reiciendis facilis, non, dicta ab.\n  "
+          "\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur\n    aspernatur nostrum, repellendus ea numquam consequatur assumenda. Alias\n    perspiciatis, delectus, sapiente omnis ex repellendus, qui eius soluta\n    suscipit deleniti corporis voluptatibus. Deserunt excepturi non recusandae\n    molestias, libero sed labore animi numquam quae cupiditate perferendis ex\n    praesentium aliquam eum rerum accusamus ducimus fugiat nostrum delectus\n    eius. Culpa nisi reiciendis rerum. Est, culpa. Similique fuga voluptatibus\n    doloribus placeat eius reprehenderit nobis, nemo provident beatae, soluta\n    ipsam ab porro ducimus, quas blanditiis pariatur commodi ratione tempore\n    ad perferendis delectus iure saepe sunt? Aliquam provident assumenda nam\n    vitae odit reiciendis facilis, non, dicta ab.\n  "
         )
       ]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n    Lorem ipsum dolor sit amet consectetur adipisicing, elit. Minus vel dicta dolore quos nulla delectus, incidunt magni adipisci debitis eveniet nihil doloribus labore fugit autem maxime quidem laborum libero quae necessitatibus saepe vero unde! Est, ratione velit quo laudantium aspernatur!\n  "
+          "\n    Lorem ipsum dolor sit amet consectetur adipisicing, elit. Minus vel dicta\n    dolore quos nulla delectus, incidunt magni adipisci debitis eveniet nihil\n    doloribus labore fugit autem maxime quidem laborum libero quae\n    necessitatibus saepe vero unde! Est, ratione velit quo laudantium\n    aspernatur!\n  "
         )
       ])
     ])
@@ -1847,12 +1876,14 @@ var render = function() {
         "footer",
         {
           staticClass:
-            "sm:text-2xl font-bold text-hmps-blue uppercase round-lg rounded-t sm:py-12 py-2 before:bg-pink-100"
+            "sm:text-2xl font-bold text-hmps-blue uppercase round-lg rounded-t sm:py-6 py-2 before:bg-pink-100"
         },
         [
           _c("div", { staticClass: "max-w-screen-lg px-4 sm:px-6 mx-auto" }, [
             _c("p", { staticClass: "mt-4" }, [
-              _vm._v("Himpunan Mahasiswa Program Studi Teknik Informatika")
+              _vm._v(
+                "\n          Himpunan Mahasiswa Program Studi Teknik Informatika\n        "
+              )
             ]),
             _vm._v(" "),
             _c("p", { staticClass: "mb-4" }, [
@@ -1933,7 +1964,7 @@ var render = function() {
                           })
                         ]
                       ),
-                      _vm._v("\n              Youtube\n            ")
+                      _vm._v("\n                Youtube\n              ")
                     ]
                   )
                 ]),
@@ -1975,7 +2006,8 @@ var render = function() {
                           })
                         ]
                       ),
-                      _vm._v("\n              Instagram\n            ")
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Instagram")])
                     ]
                   )
                 ])
@@ -2009,7 +2041,12 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("ExampleComponent")], 1)
+  return _c(
+    "div",
+    { staticClass: "px-4 sm:px-6 py-12" },
+    [_c("ExampleComponent")],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true

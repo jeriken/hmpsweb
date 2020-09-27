@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-4 sm:px-6 py-12">
     <ExampleComponent />
   </div>
 </template>
