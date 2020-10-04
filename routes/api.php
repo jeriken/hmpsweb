@@ -31,3 +31,15 @@ Route::group([
         Route::get('user', 'Auth\AuthController@user');
     });
 });
+
+Route::resource('article', 'Article\ArticleController')->except([
+    'edit', 'create'
+]);
+
+Route::resource('berita', 'Berita\BeritaController')->except([
+    'edit', 'create'
+]);
+
+Route::resource('tag', 'Tag\TagController')->except([
+    'edit', 'create'
+]);
