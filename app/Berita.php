@@ -9,6 +9,13 @@ class Berita extends Model
     // Model berita untuk tabel 'berita
     protected $table = 'berita';
 
+    // Yang boleh diisi di dalam tabel Berita
+    protected $fillable = [
+        'title',
+        'content',
+        'user_id'
+    ];
+
     // Relationship many to many dengan Tag (Kategori)
     public function tag()
     {

@@ -6,6 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Article extends Model
 {
+    // Yang boleh diisi di dalam tabel Article
+    protected $fillable = [
+        'title',
+        'content',
+        'user_id'
+    ];
+
     // Relationship many to many dengan Tag (Kategori)
     public function tag()
     {
